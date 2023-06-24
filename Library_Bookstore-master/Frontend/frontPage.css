@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background:  rgb(255, 255, 255);
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+nav {
+  width: 1359px;
+  position: absolute;
+  height: 85px;
+  background: rgba(208, 140, 105,0.8);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+nav form {
+  height: 40px;
+  width: 42%;
+  margin-left: -30px;
+}
+
+nav form button {
+  padding: 0 15px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: -11%;
+}
+nav .logo {
+  font-size: 40px;
+  margin-left: -58%;
+  font-weight: 750;
+  color: rgb(0, 0, 0);
+}
+
+nav .loginbtn {
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 520;
+  width: 113px;
+  height: 44px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 0.1s ease;
+  cursor: pointer;
+  margin-left: 10px;
+}
+nav .loginbtn a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+nav .loginbtn:hover,
+.loginbtn:focus{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+nav .loginbtn:active{
+  opacity: 0.8;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+nav .buttons {
+  margin-left: -68%;
+  margin-right: -3%;
+}
+.background {
+  background-image: url("https://cdn.dribbble.com/users/1936570/screenshots/15672107/media/99bae9f0a16dbe85208ef0747e0d2ceb.gif");
+  background-repeat: no-repeat;
+  background-size: 530px 475px;
+  object-fit: cover;
+  background-position: 70px 100px !important;
+  width: 45%;
+  height: 750px;
+  margin-left: 3%;
+  margin-top: 40px;
+}
+.page1 {
+  padding-top: 140px;
+}
+.page1 .hp-text1 {
+  position: absolute;
+  left: 8%;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 82px;
+  font-weight: 900;
+  line-height: 90px;
+  color: #ffffff;
+  margin-top: -20.5%;
+}
+
+#log-in {
+  position: relative;
+  margin: 1% auto;
+  width: 530px;
+  height: 475px;
+  left: 105%;
+  margin-top: -8%;
+  border: rgb(0, 0, 0);
+  background:  rgba(208, 140, 105,0.8) ;
+  color:rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+  border-bottom: black;
+}
+.input-data {
+  position: absolute;
+  top: 15%;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 500px;
+  height: 400px;
+  padding-left: 180px;
+  margin-left: -6%;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 28px;
+  padding-top: 10%;
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-top: 25px;
+  width: 70%;
+  height: 18%;
+  background: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+  font-size: 16px;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.heading {
+  text-align: center;
+}
+.heading1 {
+  margin-top: -3%;
+  margin-left: -20%;
+}
+.intro {
+  color: #ffffff;
+  margin-top: -35%;
+}
+.intro h1 {
+  text-align: left;
+  margin-left: 6%;
+  font-size: 48px;
+  font-weight: 500;
+}
+.intro p {
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 6%;
+  margin-right: 8%;
+  line-height: 180%;
+}

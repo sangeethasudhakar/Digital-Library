@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+body {
+  background-image: url("https://assets.weforum.org/article/image/JMF96ETfn1kSViVnUou1Z0XIDwWcPpT5mrPc7-ytpAc.jpg");
+  background-size: cover;
+}
+
+nav {
+  width: 1359px;
+  position: absolute;
+  height: 85px;
+  background: rgba(208, 140, 105,0.8);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 100px;
+  box-shadow: 0 2px 5px rgb(103, 91, 75);;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+nav .logo {
+  font-size: 50px;
+  margin-right: 38%;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+#firebaseui-auth-container {
+  margin-top: 20%;
+}
+.Backbutton {
+  color: white;
+
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 520;
+  width: 90px;
+  height: 44px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  transition: 0.1s ease;
+  cursor: pointer;
+  margin-left: 10px;
+}
